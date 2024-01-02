@@ -1,0 +1,15 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel public/index.html"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "parcel": "^2.10.3"
+  },
+  "dependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.3.3"
+  }
+}
