@@ -9,10 +9,4 @@ body {
 
 .root {
     padding: 30px;
-    background-color: #fff;
-    background-image: url("../src/icons/taks-unsplash.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }

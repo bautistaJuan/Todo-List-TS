@@ -2,7 +2,7 @@
   "name": "todo-list",
   "version": "1.0.0",
   "scripts": {
-    "dev": "parcel public/index.html"
+    "dev": "parcel src/index.html"
   },
   "devDependencies": {
     "@types/node": "^20.10.5",

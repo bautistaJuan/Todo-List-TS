@@ -4,6 +4,5 @@ import { state } from "./state";
 
 (function () {
   state.init();
-
   initPageHome(document.querySelector(".root")!);
 })();

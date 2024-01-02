@@ -13,7 +13,6 @@ export const state = {
   init() {
     // localStorage.clear();
     const localData = localStorage.getItem("tasks")!;
-    console.log(localData);
 
     this.setState(JSON.parse(localData));
   },
