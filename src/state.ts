@@ -1,3 +1,5 @@
+import { get } from "http";
+
 export const state = {
   data: {
     tasks: [
@@ -10,12 +12,6 @@ export const state = {
     ],
   },
   renderizador: [],
-  init() {
-    // localStorage.clear();
-    const localData = localStorage.getItem("tasks")!;
-
-    this.setState(JSON.parse(localData));
-  },
   suscribe(callback: (any) => any) {
     this.renderizador.push(callback);
   },
