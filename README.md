@@ -9,6 +9,7 @@
 ## Tecnologias
 
 - JavaScript
+- TypeScript
 - Components
 - CSS Module
 - Git
